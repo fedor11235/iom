@@ -1,5 +1,5 @@
 export type DataSetType = {
-  type: 'dir' | 'file',
+  type: 'folder' | 'file',
   name: string,
   files?: DataSetType,
 }

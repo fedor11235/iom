@@ -1,11 +1,11 @@
 
 [
   { 
-    "type": "dir",
+    "type": "folder",
     "name": "папка 1",
     "files": [
       {
-        "type": "dir",
+        "type": "folder",
         "name": "папка 1-1",
         "files": [
           {
@@ -21,11 +21,11 @@
     ]
   },
   {
-    "type": "dir",
+    "type": "folder",
     "name": "папка 2",
     "files": [
       { 
-        "type": "dir",
+        "type": "folder",
         "name": "папка 2-1",
         "files": []
       },
