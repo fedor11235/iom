@@ -1,3 +1,5 @@
+// Каждая ыункция обходит дерево и делает какое-то своё действие (удаление, добавление, и поиск элемент по айди, поиск максимального индекса)
+// В идеале лучше сделать одну функцию для обхода дерева
 import type { DataSetType, DataType } from '@/types/tree'
 
 export function walkOnTreeMaxId (three: DataSetType[], idBig: number): number {

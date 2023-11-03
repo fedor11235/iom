@@ -63,38 +63,38 @@ function handlerDelete () {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .tree-item {
   display: flex;
   justify-content: space-between;
   background-color: #a0a0a0;
   margin: 4px 0;
   padding: 4px 16px;
-}
-.tree-item__input {
-  border: none;
-  outline: none;
-}
-.tree-item__name {
-  color: white;
-}
-.tree-item__menu {
-  display: flex;
-  column-gap: 12px;
-}
-.tree-item__img {
-  object-fit: contain;
-}
-.tree-item__delete {
-  cursor: pointer;
-}
-.tree-item__control {
-  user-select: none;
-  color: black;
-  cursor: pointer;
-}
-.tree-item__child {
-  width: 99%;
-  margin-left: 1%;
+  &__input {
+    border: none;
+    outline: none;
+  }
+  &__name {
+    color: white;
+  }
+  &__menu {
+    display: flex;
+    column-gap: 12px;
+  }
+  &__img {
+    object-fit: contain;
+  }
+  &__delete {
+    cursor: pointer;
+  }
+  &__control {
+    user-select: none;
+    color: black;
+    cursor: pointer;
+  }
+  &__child {
+    width: 99%;
+    margin-left: 1%;
+  }
 }
 </style>
