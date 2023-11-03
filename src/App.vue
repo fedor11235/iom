@@ -1,18 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts" setup>
+import type { DataSetType } from '@/types/tree.ts'
+import filesThree from '@/data/files.json'
+import { useThreeStore } from '@/store'
 
-export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-})
+const threeStore = useThreeStore()
+threeStore.three = filesThree as DataSetType[]
+
 </script>
 
 <style>

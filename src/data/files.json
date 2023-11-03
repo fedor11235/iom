@@ -1,0 +1,42 @@
+
+[
+  { 
+    "type": "dir",
+    "name": "папка 1",
+    "files": [
+      {
+        "type": "dir",
+        "name": "папка 1-1",
+        "files": [
+          {
+            "type": "file",
+            "name": "файл 1-1-1"
+          }
+        ]
+      },
+      {
+        "type": "file",
+        "name": "файл 1-2"
+      }
+    ]
+  },
+  {
+    "type": "dir",
+    "name": "папка 2",
+    "files": [
+      { 
+        "type": "dir",
+        "name": "папка 2-1",
+        "files": []
+      },
+      { 
+        "type": "file",
+        "name": "файл 2-2"
+      }
+    ]
+  },
+  { 
+    "type": "file",
+    "name": "файл 2"
+  }
+]
