@@ -1,15 +1,11 @@
 <template>
   <TreeItem
     class="item"
-    v-for="(child, index) in threeStore.three"
-    :key="index"
+    v-for="child in threeStore.three"
+    :key="child.id"
     :item="child"
   >
   </TreeItem>
-  <!-- @make-folder="$emit('make-folder', $event)"
-    @add-item="$emit('add-item', $event)" -->
-  <!-- :type="child.type"
-    :name="child.name" -->
 </template>
 
 <script lang="ts" setup>

@@ -1,41 +1,48 @@
 
 [
   { 
+    "id": 1,
     "type": "folder",
     "name": "папка 1",
     "files": [
-      {
+      { "id": 2,
         "type": "folder",
         "name": "папка 1-1",
         "files": [
-          {
+          { 
+            "id": 3,
             "type": "file",
             "name": "файл 1-1-1"
           }
         ]
       },
-      {
+      { 
+        "id": 4,
         "type": "file",
         "name": "файл 1-2"
       }
     ]
   },
-  {
+  { 
+    "id": 5,
     "type": "folder",
     "name": "папка 2",
     "files": [
       { 
+        "id": 6,
         "type": "folder",
         "name": "папка 2-1",
         "files": []
       },
       { 
+        "id": 7,
         "type": "file",
         "name": "файл 2-2"
       }
     ]
   },
   { 
+    "id": 8,
     "type": "file",
     "name": "файл 2"
   }

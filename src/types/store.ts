@@ -1,4 +1,4 @@
-import { DataSetType } from "./tree";
+import type { DataSetType } from './tree'
 
 export type ThreeStoreType = {
   three: DataSetType[];
